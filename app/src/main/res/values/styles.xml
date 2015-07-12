@@ -4,6 +4,11 @@
     <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
         <!-- Customize your theme here. -->
         <item name="android:background">#000000</item>
+        <item name="android:actionBarStyle">@style/MyActionBar</item>
+    </style>
+    <style name="MyActionBar" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="android:background">#FFA500</item>
+        <item name="android:textColor">#FFA500</item>
       <!--  <item name="android:centerColor">#FFA500</item> -->
     </style>
 
